@@ -66,8 +66,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 intro-text">
-            <h1>aspire  to  inspire<span></span></h1>
-            <p></p>
+            <h1 id="lblGreetings"></h1>
             <a href="#features" class="btn btn-custom btn-lg page-scroll" style="margin:10px;">Learn More</a>
 			<a href="#features" class="btn btn-custom btn-lg page-scroll" style="margin:10px;">Register Test series</a>
 			<a href="#features" class="btn btn-custom btn-lg page-scroll" style="margin:10px;">Test schedule</a>
@@ -399,4 +398,20 @@
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
+<script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12)
+        greet = 'Good Morning,Bachha log';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon,Bachha log';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening,Bachha log';
+
+    document.getElementById('lblGreetings').innerHTML =
+        greet + '!';
+</script> 
 </html>
