@@ -11,7 +11,7 @@ h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
-	text-transform: uppercase;
+	
 	margin: 0 0 20px 0;
 	font-weight: 800;
 	font-size: 36px;
@@ -210,6 +210,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro h1 span {
+	font-weight: 800;
+	color: #5ca9fb;
+}
+.intro h2 {
+	margin: 0 0 20px 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #fff;
+}
+.intro h3 {
+	margin: 0 0 20px 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #FFA500;
+}
+
+
+.intro h2 span {
 	font-weight: 800;
 	color: #5ca9fb;
 }
