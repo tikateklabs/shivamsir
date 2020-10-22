@@ -181,12 +181,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-/* Header Section */
+/* Header Section-ICSE */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/intro-bg-ICSE.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -244,6 +244,70 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+/* Header Section-CBSE */
+.intro-cbse {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/intro-bg-CBSE.jpg) center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro-cbse .overlay {
+	background: rgba(0,0,0,0.2);
+}
+.intro-cbse h1 {
+	color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.intro-cbse h1 span {
+	font-weight: 800;
+	color: #5ca9fb;
+}
+.intro-cbse h2 {
+	margin: 0 0 20px 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #fff;
+}
+.intro-cbse h3 {
+	margin: 0 0 20px 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #FFA500;
+}
+
+
+.intro-cbse h2 span {
+	font-weight: 800;
+	color: #5ca9fb;
+}
+.intro-cbse p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+header .intro-text {
+	padding-top: 350px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
